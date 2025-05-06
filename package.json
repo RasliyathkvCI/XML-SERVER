@@ -1,0 +1,8 @@
+{
+    "name": "vmap-ads",
+    "version": "1.0.0",
+    "description": "Hosted VAST and VMAP XML files for ads",
+    "scripts": {
+      "start": "echo No server needed"
+    }
+  }
