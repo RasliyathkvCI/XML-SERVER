@@ -3,7 +3,7 @@
   <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll">
     <vmap:AdSource id="preroll-ad-1" allowMultipleAds="false" followRedirects="true">
       <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://your-domain.vercel.app/preroll.xml ]]>
+        <![CDATA[ https://xml-server.vercel.app/preroll.xml ]]>
       </vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
@@ -11,7 +11,7 @@
   <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll">
     <vmap:AdSource id="midroll-ad-1" allowMultipleAds="false" followRedirects="true">
       <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://your-domain.vercel.app/midroll.xml ]]>
+        <![CDATA[ https://xml-server.vercel.app/midroll.xml ]]>
       </vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
@@ -19,7 +19,7 @@
   <vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
     <vmap:AdSource id="postroll-ad-1" allowMultipleAds="false" followRedirects="true">
       <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://your-domain.vercel.app/postroll.xml ]]>
+        <![CDATA[ https://xml-server.vercel.app/postroll.xml ]]>
       </vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
