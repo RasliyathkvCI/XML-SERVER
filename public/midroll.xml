@@ -1,17 +1,15 @@
-
-<?xml version="1.0" encoding="UTF-8"?>
-<VAST version="3.0">
-  <Ad id="midroll-ad-1">
+<VAST version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Ad id="midroll-1">
     <InLine>
-      <AdSystem>Custom Ad Server</AdSystem>
-      <AdTitle>Midroll Ad</AdTitle>
+      <AdSystem>Sample Ad Server</AdSystem>
+      <AdTitle>Mid-roll Ad</AdTitle>
       <Creatives>
         <Creative>
           <Linear>
-            <Duration>00:00:15</Duration>
+            <Duration>00:00:05</Duration>
             <MediaFiles>
               <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
-                <![CDATA[https://devlqc.citrusdev.com/files/al-araby-network.mp4]]>
+                https://devlqc.citrusdev.com/files/al-araby-network.mp4
               </MediaFile>
             </MediaFiles>
           </Linear>
@@ -20,5 +18,3 @@
     </InLine>
   </Ad>
 </VAST>
-
-
