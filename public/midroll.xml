@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <VAST version="3.0">
   <Ad id="midroll-ad-1">
@@ -10,7 +11,7 @@
             <Duration>00:00:15</Duration>
             <MediaFiles>
               <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
-                <![CDATA[https://yourdomain.com/path-to-ad-video.mp4]]>
+                <![CDATA[https://devlqc.citrusdev.com/files/al-araby-network.mp4]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
@@ -19,3 +20,5 @@
     </InLine>
   </Ad>
 </VAST>
+
+
