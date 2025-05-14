@@ -3,30 +3,13 @@
 
   <!-- Pre-roll ads -->
   <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll">
-    <vmap:AdSource id="preroll-ad-1" allowMultipleAds="true" followRedirects="true">
+    <vmap:AdSource id="preroll-ad-1" allowMultipleAds="false" followRedirects="true">
       <vmap:AdTagURI templateType="vast3">
         <![CDATA[ https://xml-server.vercel.app/preroll.xml ]]>
       </vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
 
-  <!-- Additional Pre-roll ad -->
-  <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll-2">
-    <vmap:AdSource id="preroll-ad-2" allowMultipleAds="true" followRedirects="true">
-      <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://xml-server.vercel.app/preroll-2.xml ]]>
-      </vmap:AdTagURI>
-    </vmap:AdSource>
-  </vmap:AdBreak>
-
-  <!-- Mid-roll ad at 10th second -->
-  <vmap:AdBreak timeOffset="00:00:10.000" breakType="linear" breakId="midroll-10s">
-    <vmap:AdSource id="midroll-ad-10s" allowMultipleAds="false" followRedirects="true">
-      <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://xml-server.vercel.app/midroll-10s.xml ]]>
-      </vmap:AdTagURI>
-    </vmap:AdSource>
-  </vmap:AdBreak>
 
   <!-- Mid-roll ad at 1st minute -->
   <vmap:AdBreak timeOffset="00:01:00.000" breakType="linear" breakId="midroll-1min">
@@ -46,14 +29,6 @@
     </vmap:AdSource>
   </vmap:AdBreak>
 
-  <!-- Mid-roll ad at 3rd minute using midroll-10s.xml -->
-  <vmap:AdBreak timeOffset="00:03:00.000" breakType="linear" breakId="midroll-3min">
-    <vmap:AdSource id="midroll-ad-3min" allowMultipleAds="false" followRedirects="true">
-      <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://xml-server.vercel.app/midroll-10s.xml ]]>
-      </vmap:AdTagURI>
-    </vmap:AdSource>
-  </vmap:AdBreak>
 
   <!-- Post-roll ad -->
   <vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
