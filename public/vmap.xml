@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
-
-  <!-- Pre-roll ads -->
   <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll">
     <vmap:AdSource id="preroll-ad-1" allowMultipleAds="false" followRedirects="true">
       <vmap:AdTagURI templateType="vast3">
@@ -10,33 +8,19 @@
     </vmap:AdSource>
   </vmap:AdBreak>
 
-
-  <!-- Mid-roll ad at 1st minute -->
-  <vmap:AdBreak timeOffset="00:01:00.000" breakType="linear" breakId="midroll-1min">
-    <vmap:AdSource id="midroll-ad-1min" allowMultipleAds="false" followRedirects="true">
+  <vmap:AdBreak timeOffset="00:00:45.000" breakType="linear" breakId="midroll">
+    <vmap:AdSource id="midroll-ad-1" allowMultipleAds="false" followRedirects="true">
       <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://xml-server.vercel.app/midroll-1min.xml ]]>
+        <![CDATA[ https://xml-server.vercel.app/midroll.xml ]]>
       </vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
 
-  <!-- Mid-roll ad at 2nd minute -->
-  <vmap:AdBreak timeOffset="00:02:00.000" breakType="linear" breakId="midroll-2min">
-    <vmap:AdSource id="midroll-ad-2min" allowMultipleAds="false" followRedirects="true">
-      <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://xml-server.vercel.app/midroll-2min.xml ]]>
-      </vmap:AdTagURI>
-    </vmap:AdSource>
-  </vmap:AdBreak>
-
-
-  <!-- Post-roll ad -->
   <vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
-    <vmap:AdSource id="postroll-ad" allowMultipleAds="false" followRedirects="true">
+    <vmap:AdSource id="postroll-ad-1" allowMultipleAds="false" followRedirects="true">
       <vmap:AdTagURI templateType="vast3">
-        <![CDATA[ https://xml-server.vercel.app/postroll.xml ]]>
+        <![CDATA[ https://xml-server.vercel.app/postroll-2.xml ]]>
       </vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
-
 </vmap:VMAP>
