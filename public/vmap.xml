@@ -8,13 +8,24 @@
     </vmap:AdSource>
   </vmap:AdBreak>
 
-  <vmap:AdBreak timeOffset="00:00:45.000" breakType="linear" breakId="midroll">
+  <vmap:AdBreak timeOffset="00:01:00.000" breakType="linear" breakId="midroll">
     <vmap:AdSource id="midroll-ad-1" allowMultipleAds="false" followRedirects="true">
       <vmap:AdTagURI templateType="vast3">
         <![CDATA[ https://xml-server.vercel.app/midroll.xml ]]>
       </vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
+
+   <!-- Mid-roll ad at 2nd minute -->
+  <vmap:AdBreak timeOffset="00:02:00.000" breakType="linear" breakId="midroll-2min">
+    <vmap:AdSource id="midroll-ad-2min" allowMultipleAds="false" followRedirects="true">
+      <vmap:AdTagURI templateType="vast3">
+        <![CDATA[ https://xml-server.vercel.app/midroll-2min.xml ]]>
+      </vmap:AdTagURI>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+
+
 
   <vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
     <vmap:AdSource id="postroll-ad-1" allowMultipleAds="false" followRedirects="true">
